@@ -1,4 +1,3 @@
-import React from "react";
 import html from "../assets/experience/html.png";
 import css from "../assets/experience/css.png";
 import javascript from "../assets/experience/javascript.png";
