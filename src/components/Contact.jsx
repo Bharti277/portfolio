@@ -78,7 +78,7 @@ const Contact = () => {
               className="p-2 mt-4 text-white bg-transparent border-2 rounded-md focus:outline-none"
             />
             {errors.email && (
-              <span className="my-4 mt-2 text-red-400 ">{errors.email}</span>
+              <span className="mt-2 text-red-400 ">{errors.email}</span>
             )}
             <textarea
               name="message"
@@ -87,7 +87,7 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
               id=""
-              className="p-2 text-white bg-transparent border-2 rounded-md focus:outline-none"
+              className="p-2 mt-4 text-white bg-transparent border-2 rounded-md focus:outline-none"
             ></textarea>
             {errors.message && (
               <span className="mt-2 text-red-400">{errors.message}</span>
