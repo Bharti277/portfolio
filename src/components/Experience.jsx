@@ -5,6 +5,8 @@ import reactImage from "../assets/experience/react.png";
 import nextjs from "../assets/experience/nextjs.png";
 import github from "../assets/experience/github.png";
 import tailwind from "../assets/experience/tailwind.png";
+import nodejs from "../assets/experience/nodejs.webp";
+import expressjs from "../assets/experience/expressjs.png";
 
 const Experience = () => {
   const images = [
@@ -50,6 +52,18 @@ const Experience = () => {
       title: "Tailwind",
       style: "shadow-gray-400",
     },
+    {
+      id: 8,
+      src: nodejs,
+      title: "NodeJS",
+      style: "shadow-green-500",
+    },
+    {
+      id: 9,
+      src: expressjs,
+      title: "ExpressJS",
+      style: "shadow-yellow-200",
+    },
   ];
   return (
     <div
@@ -61,7 +75,7 @@ const Experience = () => {
           <p className="inline text-4xl font-bold border-b-4 border-gray-500">
             Experience
           </p>
-          <p className="py-6">These are the technology i have worked with</p>
+          <p className="py-6">These are the technology I have worked with</p>
         </div>
         <div className="grid w-full grid-cols-2 gap-8 px-12 py-8 text-center sm:grid-cols-3 sm:px-0">
           {images.map(({ id, src, title, style }) => (
